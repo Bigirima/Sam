@@ -1,0 +1,109 @@
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+justify-content: space-between;
+  background-color: #198754;
+  color: white;
+  padding: 15px 30px;
+}
+
+.logo {
+  margin: 0; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  margin: o;
+}
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  text-align: center;
+  padding: 50px 30px;
+  background-color: aliceblue;
+  color: green;
+}
+
+.form-group {
+align-items: center;
+color: #198754;
+
+}
+
+.form-group input {
+width: 18%;
+padding: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 5px;
+border: none;
+
+}
+
+button {
+width: 10%;
+background-color: #198754;
+padding: 15px;
+border-radius: 5px;
+border: none;
+}
+
+footer {
+  background-color: #198754;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+}
+
+.dodo {
+  list-style: none;
+  gap: 30px;
+}
+.dodo a {
+  color: white;
+  text-decoration: none;
+}
+
+.koko {
+  list-style: none;
+}
+.koko a {
+  color: white;
+  text-decoration: none;
+  gap: 30px;
+}
+
+.end {
+  padding: 20px 500px;
+}
+
+.down {
+  transform: translate(500px,-130px)
+}
+.bottom {
+  padding: 15px 35px;
+}
+
+/* Responsive navigation */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+  }
+
+}
