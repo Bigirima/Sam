@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  display: flex;
+display: flex;
 justify-content: space-between;
   background-color: #198754;
   color: white;
@@ -55,11 +55,21 @@ border: none;
 }
 
 button {
-width: 10%;
+width: 6%;
 background-color: #198754;
 padding: 15px;
 border-radius: 5px;
 border: none;
+color: white;
+}
+
+.login-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
 }
 
 footer {
@@ -89,6 +99,7 @@ footer {
 
 .end {
   padding: 20px 500px;
+  color: white;
 }
 
 .down {
