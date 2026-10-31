@@ -101,19 +101,6 @@ footer {
     margin-top: 50px;
 }
 
-header {
-    /* background-image: url("products/Images/sixcode-banner.png"); */
-
-    /* background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    min-height: 350px;
-
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-} */
 /* Responsive design */
 @media (max-width: 768px) {
     nav ul {
