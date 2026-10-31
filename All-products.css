@@ -1,0 +1,136 @@
+
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #198754;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+/* Main section */
+main {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    color: #198754;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Category cards */
+nav ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+nav ul li {
+    background-color:  #198754;
+    border-radius: 10px;
+    padding: 35px 20px;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+nav ul li:hover {
+    background-color: darkgreen;
+
+}
+
+nav ul li:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* Back to home link */
+main > a {
+    display: block;
+    width: fit-content;
+    margin: 35px auto 0;
+    background-color: #198754;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+main > a:hover {
+    background-color: #146c43;
+}
+
+/* Footer */
+footer {
+    background-color: #172b24;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+header {
+    /* background-image: url("products/Images/sixcode-banner.png"); */
+
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 350px;
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+} */
+/* Responsive design */
+@media (max-width: 768px) {
+    nav ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    nav ul {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    main h2 {
+        font-size: 23px;
+    }
+}

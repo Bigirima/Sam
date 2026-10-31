@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+  text-align: center;
+  padding: 50px 30px;
+  background-color: aliceblue;
+  color: green;
+}
+
+.form-group {
+align-items: center;
+color: #198754;
+
+}
+
+.form-group input {
+width: 18%;
+padding: 15px;
+margin-top: 15px;
+margin-bottom: 15px;
+border-radius: 9px;
+border: none;
+
+}
+
+button {
+width: 6%;
+background-color: #198754;
+padding: 15px;
+border-radius: 12px;
+border: none;
+color: white;
+}
+.registration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.signup-btn:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+.back {
+    display: flex;
+    width: fit-content;
+    margin: 35px auto 0;
+    background-color: #198754;
+    border-radius: 6px;
+    padding: 12px 20px;
+    transform: translateX(620px);
+}
+.back a {
+text-decoration: none;
+color: white;
+}
+header {
+  display: flex;
+    background-color: #198754;
+    padding: 50px 50px;
+    color: white;
+}
+    
+  
+  
